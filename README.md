@@ -1,6 +1,7 @@
 # Solidus.Test
 
 [![Build and Test](https://github.com/solidus-framework/Solidus.Test/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/solidus-framework/Solidus.Test/actions/workflows/build_and_test.yml)
+![NuGet Version](https://img.shields.io/nuget/v/Solidus.Test)
 
 The test base package that covers common test project boilerplate.
 
