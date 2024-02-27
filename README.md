@@ -20,7 +20,7 @@ The test base package that covers common test project boilerplate.
 
 ## Environment Variables usage example
 
-`.\.github\workflows\dotnet.yml`
+`./.github/workflows/dotnet.yml`
 
 ```yml
 ...
@@ -32,7 +32,7 @@ The test base package that covers common test project boilerplate.
 ...
 ```
 
-`.\UnitTests\HouseTest.cs`
+`./UnitTests/HouseTest.cs`
 
 ```csharp
 public class HouseTest : TestBase
@@ -54,7 +54,7 @@ public class HouseTest : TestBase
 
 ## Mother Factory usage example
 
-`.\MotherFactory\PersonMotherFactory.cs`
+`./MotherFactory/PersonMotherFactory.cs`
 
 ```csharp
 public static class PersonMotherFactory
@@ -70,7 +70,7 @@ public static class PersonMotherFactory
 }
 ```
 
-`.\UnitTests\HouseEnterTests.cs`
+`./UnitTests/HouseEnterTests.cs`
 
 ```csharp
 public class HouseEnterTests : TestBase
